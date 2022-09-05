@@ -14,6 +14,6 @@
 
 # Author
 
-* Ryota Tanaka
-* 名古屋大学工学部電気電子情報工学科　武田研究室
-* tanaka.ryota@g.sp.m.is.nagoya-u.ac.jp
+* 作成者：田中諒汰
+* 所属：名古屋大学工学部電気電子情報工学科　武田研究室
+* e-mail：tanaka.ryota@g.sp.m.is.nagoya-u.ac.jp
