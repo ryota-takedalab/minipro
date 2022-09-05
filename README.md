@@ -8,6 +8,10 @@
 
 # モーションキャプチャの様子
 
+
+https://user-images.githubusercontent.com/102862947/188489482-00ef6711-e93d-4e09-9988-8549ab20c414.mp4
+
+
 # Note
 
 データセット作成中。
