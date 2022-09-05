@@ -8,9 +8,7 @@
 
 # モーションキャプチャの様子
 
-
-https://user-images.githubusercontent.com/102862947/188489482-00ef6711-e93d-4e09-9988-8549ab20c414.mp4
-
+![67c48197-47f7-4171-b366-c166f64ee0ba](https://user-images.githubusercontent.com/102862947/188489734-987cae8c-3a9c-4610-b219-0fd4ad2da1a7.gif)
 
 # Note
 
