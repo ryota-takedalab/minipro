@@ -22,7 +22,8 @@ bvh形式にてexportされたファイルを、bvhtoolboxを用いてcsv形式�
 
 csv形式への変換は、  
 ```bvh2csv import.bvh```  
-というコマンドを用いる。
+というコマンドを用いて行う。  
+入力のbvhデータは、positionデータとrotaitionデータの2つのcsvファイルに分けて出力される。
 
 # Note
 
