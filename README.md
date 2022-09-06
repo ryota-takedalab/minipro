@@ -3,7 +3,7 @@
 ミニプロでは「フィギュアスケートのジャンプにおけるエッジエラー判定の自動化」をテーマに研究を進める。  
 対象のジャンプは1Lz(single Lutz)。用いたデータセットやソースコードをここに公開する。
 
-データ収集にはNOITOM社製慣性センサ["perceotion neuron 3.0"](https://neuronmocap.com/pages/perception-neuron-3)を用いた。
+データ収集にはNOITOM社製慣性センサ"[perceotion neuron 3.0]"(https://neuronmocap.com/pages/perception-neuron-3)を用いた。
 
 # モーションキャプチャの様子
 
