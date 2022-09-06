@@ -1,13 +1,28 @@
 # mini project
 
-「フィギュアスケートのジャンプにおけるエッジエラー判定の自動化」をテーマにミニプロに取り組んでいる。  
+「フィギュアスケートのジャンプにおけるエッジエラー判定の自動化」をテーマとする。
 対象のジャンプは1Lz(single Lutz)。用いたデータセットやソースコードをここに公開する。
 
 データ収集にはNOITOM社製慣性センサ"perceotion neuron 3.0"を用いた。
 
 # モーションキャプチャの様子
 
+専用ソフト"Axis studio"におけるキャプチャ画面を以下に示す。  
+キャプチャファイルはbvh形式にてexportされる。
+
 ![67c48197-47f7-4171-b366-c166f64ee0ba](https://user-images.githubusercontent.com/102862947/188489734-987cae8c-3a9c-4610-b219-0fd4ad2da1a7.gif)
+
+# bvhtoolbox
+
+bvh形式にてexportされたファイルを、bvhtoolboxを用いてcsv形式に変換した。  
+
+インストールは  
+```pip install bvhtoolbox```  
+で行うことができる。  
+
+csv形式への変換は、  
+```bvh2csv import.bvh```  
+というコマンドを用いる。
 
 # Note
 
