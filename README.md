@@ -20,9 +20,8 @@ bvh形式にてexportされたファイルを、[bvhtoolbox](https://pypi.org/pr
 ```pip install bvhtoolbox```  
 で行う。  
 
-csv形式への変換は、  
+csv形式への変換は、  以下のコマンドを用いて行う。  
 ```bvh2csv import.bvh```  
-というコマンドを用いて行う。  
 入力したbvhデータは、positionデータとrotaitionデータの2つのcsvファイルに分けて出力される。
 
 # Note
