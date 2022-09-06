@@ -18,7 +18,7 @@ bvh形式にてexportされたファイルを、bvhtoolboxを用いてcsv形式�
 
 インストールは  
 ```pip install bvhtoolbox```  
-で行うことができる。  
+で行う。  
 
 csv形式への変換は、  
 ```bvh2csv import.bvh```  
