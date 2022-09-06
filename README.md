@@ -3,7 +3,7 @@
 ミニプロでは「フィギュアスケートのジャンプにおけるエッジエラー判定の自動化」をテーマに研究を進める。  
 対象のジャンプは1Lz(single Lutz)。用いたデータセットやソースコードをここに公開する。
 
-データ収集にはNOITOM社製慣性センサ"perceotion neuron 3.0"を用いた。
+データ収集にはNOITOM社製慣性センサ["perceotion neuron 3.0"](https://neuronmocap.com/pages/perception-neuron-3)を用いた。
 
 # モーションキャプチャの様子
 
@@ -14,7 +14,7 @@
 
 # bvhtoolbox
 
-bvh形式にてexportされたファイルを、bvhtoolboxを用いてcsv形式に変換した。  
+bvh形式にてexportされたファイルを、[bvhtoolbox](https://pypi.org/project/bvhtoolbox/)を用いてcsv形式に変換した。  
 
 インストールは  
 ```pip install bvhtoolbox```  
