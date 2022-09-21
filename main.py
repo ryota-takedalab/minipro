@@ -3,6 +3,9 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
+from sklearn.metrics import confusion_matrix
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 def main():
@@ -10,7 +13,7 @@ def main():
     X = np.load('X_train.npy')
     y = np.load('y_train.npy')
 
-    # 標準化のインスタンスを生成（平均=0, 標準偏差=1 に変換）
+    # standardization
     sc = StandardScaler()
     X_std = sc.fit_transform(X)
 
@@ -22,13 +25,24 @@ def main():
         stratify=y
     )
     
-    # ロジスティック回帰のインスタンスを作成
+    # Logistic Regression
     lr = LogisticRegression(C=1, random_state=42, solver='lbfgs')
-    # モデルの学習
+    # learn Models
     lr.fit(X_train, y_train)
-    
-    print(lr.score(X_train,y_train))
-    print(lr.score(X_test,y_test))
+
+    #evaluate models
+    y_predict = lr.predict(X_test)
+    acc = accuracy_score(y_test, y_predict) * 100
+    print('Acc :', acc, '%')
+
+    # plot confusion matrix
+    plt.figure()
+    cm_fwd = confusion_matrix(y_predict, y_test)
+    sns.heatmap(cm_fwd, cmap='Blues', square=True)
+    plt.title(f"Result \n (Acc. {acc:.5f}%)")
+    plt.xlabel("Ground truth")
+    plt.ylabel("Predicted")
+    plt.savefig("confusion_matrix.png")
 
 if __name__ == "__main__":
     main()
