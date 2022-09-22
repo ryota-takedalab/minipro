@@ -26,7 +26,10 @@ csv形式への変換は、  以下のコマンドを用いて行う。
 
 # Note
 
-データセット作成中…。
+正答率：91.66%
+
+![edge_error_cm](https://user-images.githubusercontent.com/102862947/191660407-3e4b2a8d-f819-4d38-b37d-113104c1a4cf.png)
+
 
 # Author
 
